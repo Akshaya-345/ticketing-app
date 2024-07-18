@@ -9,5 +9,10 @@ export default defineConfig({
     rollupOptions: {
       external: ['/src/main.jsx']
     }
+  },
+  resolve: {
+    alias: {
+      '@': '/src'
+    }
   }
 })
