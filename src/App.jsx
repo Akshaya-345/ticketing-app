@@ -77,7 +77,7 @@ const App = () => {
   };
 
   return (
-    <Router>
+    <Router basename="/ticketing-app/">
       <MainRoutes
         isAuthenticated={isAuthenticated}
         username={username}
