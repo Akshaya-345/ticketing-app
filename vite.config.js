@@ -5,14 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/ticketing-app/",
-  build: {
-    rollupOptions: {
-      external: ['/src/main.jsx']
-    }
-  },
-  resolve: {
-    alias: {
-      '@': '/src'
-    }
-  }
-})
+});
