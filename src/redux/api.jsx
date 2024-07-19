@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://akshaya-345.github.io/ticketing-app/',
+  baseURL: 'https://ticket-up92.onrender.com/',
 });
 
 export default api;
